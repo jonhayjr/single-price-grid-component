@@ -1,0 +1,71 @@
+/*Import Karla Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+/*Base Styles*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+/*Component Styles*/
+main, 
+footer {
+    width: 75%;
+    margin: auto;
+}
+
+main {
+    margin: 50px 50px
+}
+
+.community,
+.subscription,
+.why-us {
+    padding: 20px;
+}
+
+/*Community Section*/
+.community {
+    background-color: white;
+}
+
+.community h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+
+.community h3 {
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.community p {
+    color: hsl(204, 43%, 87%);
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-weight: 12px;
+}
+
+.subscription {
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+}
+
+.why-us {
+    background-color: hsl(179, 62%, 50%);
+    color: white;
+}
