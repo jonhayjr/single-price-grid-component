@@ -60,10 +60,49 @@ main {
     font-weight: 12px;
 }
 
+/*Subscription section*/
 .subscription {
     background-color: hsl(179, 62%, 43%);
     color: white;
 }
+
+.subscription h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+span.dollar {
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+span.month {
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.subscription h3 {
+    margin-bottom: 10px;
+}
+
+.subscription p {
+    font-weight: 400;
+    opacity: 0.75;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    padding: 15px;
+    width: 250px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
 
 .why-us {
     background-color: hsl(179, 62%, 50%);
