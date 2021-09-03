@@ -18,15 +18,16 @@ li {
     list-style: none;
 }
 
-/*Component Styles*/
-main, 
-footer {
-    width: 75%;
-    margin: auto;
+h2 {
+    font-size: 18px;
+    font-weight: 700;
 }
 
+/*Component Styles*/
 main {
-    margin: 50px 50px
+    width: 75%;
+    max-width: 450px;
+    margin: 50px auto;
 }
 
 .community,
@@ -42,9 +43,7 @@ main {
 
 .community h2 {
     margin-bottom: 20px;
-    font-size: 18px;
     color: hsl(179, 62%, 43%);
-    font-weight: 700;
 }
 
 .community h3 {
@@ -64,11 +63,10 @@ main {
 .subscription {
     background-color: hsl(179, 62%, 43%);
     color: white;
+    justify-content: center;
 }
 
 .subscription h2 {
-    font-size: 18px;
-    font-weight: 700;
     margin-bottom: 10px;
 }
 
@@ -96,15 +94,30 @@ span.month {
 .btn {
     background-color: hsl(71, 73%, 54%);
     color: white;
-    padding: 15px;
-    width: 250px;
     font-size: 16px;
     border: none;
     border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto;
 }
-
 
 .why-us {
     background-color: hsl(179, 62%, 50%);
     color: white;
+}
+
+.why-us h2 {
+    margin-bottom: 15px;
+}
+
+.why-us li {
+    opacity: 0.75;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    margin: 0 10px;
 }
