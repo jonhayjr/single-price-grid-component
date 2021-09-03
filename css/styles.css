@@ -38,6 +38,7 @@ h2 {
     width: 100%;
     margin: 0 auto;
     transition: all 1s ease;
+    box-shadow: rgba(0, 0, 0, 0.137) 0px 5px 15px;
 }
 
 .btn:hover {
@@ -51,15 +52,16 @@ h2 {
   ==================================== */
 
 .main {
-    width: 75%;
-    max-width: 450px;
+    max-width: 325px;
     margin: 50px auto;
+    box-shadow: rgba(0, 0, 0, 0.137) 0px 5px 15px;
+    border-radius: 20px;
 }
 
 .section-community,
 .section-subscription,
 .section-whyus {
-    padding: 20px;
+    padding: 30px;
 }
 
 /*Section1 - Community Section*/
@@ -82,7 +84,7 @@ h2 {
     color: hsl(204, 43%, 87%);
     line-height: 1.5;
     margin-bottom: 10px;
-    font-weight: 12px;
+    font-weight: 14px;
 }
 
 /*Section2 - Subscription Section*/
@@ -93,7 +95,7 @@ h2 {
 }
 
 .section-subscription__heading {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .section-subscription__cost-div {
@@ -120,7 +122,7 @@ h2 {
 .section-subscription__paragraph {
     font-weight: 400;
     opacity: 0.75;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /*Section3- Why Us Section*/
@@ -134,9 +136,9 @@ h2 {
 }
 
 .section-whyus__list-item {
-    opacity: 0.75;
+    opacity: 0.65;
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 /*Footer*/
