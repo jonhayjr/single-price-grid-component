@@ -37,7 +37,7 @@ h2 {
     padding: 15px;
     width: 100%;
     margin: 0 auto;
-    transition: color 1s ease 0.3s, background-color 1s ease 0.3s;
+    transition: all 1s ease;
     box-shadow: rgba(0, 0, 0, 0.137) 0px 5px 15px;
 }
 
@@ -46,6 +46,13 @@ h2 {
     color: hsl(71, 73%, 54%);
     background-color: white;
 }
+
+.preload * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+  }
 
 /* ================================= 
     Base Layout Styles
