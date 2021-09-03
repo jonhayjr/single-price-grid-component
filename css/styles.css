@@ -37,7 +37,15 @@ h2 {
     padding: 15px;
     width: 100%;
     margin: 0 auto;
+    transition: all 1s ease;
 }
+
+.btn:hover {
+    cursor: pointer;
+    color: hsl(71, 73%, 54%);
+    background-color: white;
+}
+
 /* ================================= 
     Base Layout Styles
   ==================================== */
