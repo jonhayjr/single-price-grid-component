@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](http://www.jonhayjr.com/single-price-grid-component/)
+- Live Site URL: [http://www.jonhayjr.com/single-price-grid-component/](http://www.jonhayjr.com/single-price-grid-component/)
 
 ## My process
 
