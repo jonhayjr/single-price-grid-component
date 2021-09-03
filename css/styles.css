@@ -131,3 +131,45 @@ footer {
     text-align: center;
     margin: 0 10px;
 }
+
+/*Media Queries*/
+@media (min-width: 1040px) {
+    main {
+        display: flex;
+        max-width: 650px;
+        flex-wrap: wrap;
+    }
+
+    .community,
+    .subscription,
+    .why-us {
+    padding: 30px;
+    }
+
+    .why-us li {
+        font-size: 14px;
+    }
+
+    .community {
+        flex-basis: 100%;
+    }
+
+    .subscription,
+    .why-us {
+        flex-basis: 50%;
+    }
+
+    .subscription {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .cost {
+        margin-bottom: 0px;
+    }
+
+    .btn {
+        align-items: flex-end;
+    }
+}
