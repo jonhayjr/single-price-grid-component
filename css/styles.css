@@ -57,10 +57,16 @@ h2 {
 /* ================================= 
     Base Layout Styles
   ==================================== */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
 
 .main {
     max-width: 325px;
-    margin: 50px auto;
     box-shadow: rgba(0, 0, 0, 0.137) 0px 5px 15px;
     border-radius: 20px;
 }
